@@ -1,5 +1,5 @@
-.container {
-    background-color: blueviolet;
+#container {
+    background-color: darkblue;
     height: 250px;
     width: 60%;
     margin: 30px auto;
@@ -8,31 +8,68 @@
     color: white;
 }
 
-.container h1 {
+#container h1 {
     padding-top: 50px;
 }
 
-.container ul li a {
+#container ul li a {
     color: white;
     text-decoration: none;
 }
 
-.container li {
+#container li {
     float: left;
     margin: 10px;
     list-style: none;
     border-radius: 20px;
-    background-color: rgb(147, 82, 207);
+    background-color: mediumblue;
     padding: 5px;
 }
 
-.container ul {
+#container ul {
     display: flex;
     justify-content: center;
     padding: 0;
     margin-top: 30px;
 }
 
-* {
+body {
     font-family: "Indie Flower", cursive;
+    background-color: rgb(255, 249, 237);
 }
+
+.container2 {
+    width: 60%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    color: darkblue;
+    overflow: auto;
+}
+
+.container2 img {
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.container2 button {
+    height: 35px;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+.container2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 p {
+    line-height: 2;
+}
+
+.info {}
