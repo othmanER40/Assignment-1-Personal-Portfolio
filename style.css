@@ -1,0 +1,38 @@
+.container {
+    background-color: blueviolet;
+    height: 250px;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container h1 {
+    padding-top: 50px;
+}
+
+.container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container li {
+    float: left;
+    margin: 10px;
+    list-style: none;
+    border-radius: 20px;
+    background-color: rgb(147, 82, 207);
+    padding: 5px;
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 30px;
+}
+
+* {
+    font-family: "Indie Flower", cursive;
+}
