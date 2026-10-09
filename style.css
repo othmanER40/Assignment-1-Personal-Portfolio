@@ -34,7 +34,7 @@
 }
 
 body {
-    font-family: "Indie Flower", cursive;
+    font-family: "Space Mono", monospace;
     background-color: rgb(255, 249, 237);
 }
 
@@ -103,4 +103,44 @@ body {
 h3 {
     margin: 10px;
     padding: 0;
+}
+
+.container4 {
+    width: 60%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.container4 img {
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+.container4 h2 {
+    border-bottom: 0.3px solid black;
+    color: blueviolet;
+    margin: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.container4 p {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.company {
+    color: rgb(157, 88, 222);
+}
+
+.exper {
+    border-left: 5px solid blue;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+    background-color: aquamarine;
 }
